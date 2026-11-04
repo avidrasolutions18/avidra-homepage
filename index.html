@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="avidra-home">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+#avidra-home{--bg:#08051B;--bg2:#100721;--v:#713DFF;--o:#FF6B35;--t:#F8F7FF;--p:#C4BFD4;--line:rgba(196,191,212,.16);--r:16px;--card:rgba(255,255,255,.04);background:var(--bg);color:var(--p);font-family:Inter,system-ui,sans-serif;font-size:16px;line-height:1.7;overflow:hidden;width:100%}
+#avidra-home *,#avidra-home *::before,#avidra-home *::after{box-sizing:border-box}
+#avidra-home h1,#avidra-home h2,#avidra-home h3{font-family:Sora,sans-serif;color:var(--t);margin:0;line-height:1.2}
+#avidra-home p{margin:0 0 16px}#avidra-home ul{list-style:none;margin:0;padding:0}
+#avidra-home a{color:#B9A2FF;text-decoration:underline;text-underline-offset:3px}#avidra-home a:hover{color:var(--o)}
+#avidra-home strong{color:var(--t);font-weight:600}
+#avidra-home .av-w{max-width:1200px;margin:0 auto;padding:0 24px}
+#avidra-home section{padding:72px 0;position:relative}
+#avidra-home .av-alt{background:var(--bg2)}
+#avidra-home .av-eye{display:inline-block;font:600 12px/1 Sora,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--o);margin-bottom:16px}
+#avidra-home h2{font-size:clamp(26px,4vw,38px);margin-bottom:16px}
+#avidra-home .av-head{max-width:720px;margin:0 auto 48px;text-align:center}
+#avidra-home .av-acc{background:linear-gradient(90deg,var(--v),var(--o));-webkit-background-clip:text;background-clip:text;color:transparent}
+#avidra-home :focus-visible{outline:3px solid var(--o);outline-offset:3px;border-radius:6px}
+#avidra-home .av-btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 24px;border-radius:12px;font:600 15px Sora,sans-serif;text-decoration:none;border:1px solid transparent;cursor:pointer;transition:transform .25s,box-shadow .25s,background .25s}
+#avidra-home .av-b1{background:var(--o);color:#fff}#avidra-home .av-b1:hover{color:#fff;transform:translateY(-2px);box-shadow:0 10px 24px rgba(255,107,53,.28)}
+#avidra-home .av-b2{background:transparent;color:var(--t);border-color:rgba(113,61,255,.7)}#avidra-home .av-b2:hover{color:var(--t);background:rgba(113,61,255,.2)}
+/* hero */
+#avidra-home .av-hero{padding:80px 0 72px;background:radial-gradient(900px 480px at 85% 0,rgba(113,61,255,.22),transparent 70%),var(--bg)}
+#avidra-home .av-g2{display:grid;gap:48px;align-items:center}
+#avidra-home h1{font-size:clamp(32px,5.4vw,54px);margin-bottom:24px;letter-spacing:-.02em}
+#avidra-home .av-lead{font-size:17.5px;max-width:580px}
+#avidra-home .av-cta{display:flex;flex-wrap:wrap;gap:16px;margin:32px 0}
+#avidra-home .av-trust{display:flex;flex-wrap:wrap;gap:16px 24px;font-size:14px}
+#avidra-home .av-trust li{display:flex;gap:8px;align-items:center;color:var(--t)}
+#avidra-home .av-trust svg{width:18px;height:18px;color:var(--o);flex:none}
+#avidra-home .av-frame{padding:12px;border-radius:24px;background:linear-gradient(145deg,rgba(113,61,255,.55),rgba(255,107,53,.25));box-shadow:0 24px 60px rgba(0,0,0,.45)}
+#avidra-home .av-frame img{display:block;width:100%;height:auto;border-radius:14px;background:var(--bg2)}
+/* services */
+#avidra-home .av-grid{display:grid;gap:24px}
+#avidra-home .av-card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:32px 24px;display:flex;flex-direction:column;transition:transform .3s,border-color .3s,background .3s}
+#avidra-home .av-card:hover{transform:translateY(-6px);border-color:rgba(113,61,255,.7);background:rgba(113,61,255,.08)}
+#avidra-home .av-ic{width:48px;height:48px;border-radius:12px;display:grid;place-items:center;background:rgba(113,61,255,.18);color:#B9A2FF;margin-bottom:24px;flex:none}
+#avidra-home .av-ic svg{width:24px;height:24px}
+#avidra-home .av-card h3{font-size:19px;margin-bottom:8px}#avidra-home .av-card p{flex:1;font-size:15px}
+#avidra-home .av-more{font:600 14px Sora,sans-serif;text-decoration:none}
+#avidra-home .av-note{margin:40px auto 0;max-width:820px;text-align:center;font-size:15px}
+#avidra-home .av-guides{display:flex;flex-wrap:wrap;gap:8px 16px;justify-content:center;margin-top:16px;font-size:14px}
+/* why */
+#avidra-home .av-img{width:100%;height:auto;border-radius:20px;border:1px solid var(--line);display:block}
+#avidra-home .av-ben{display:grid;gap:24px;margin:32px 0}
+#avidra-home .av-ben li{display:flex;gap:16px}#avidra-home .av-ben .av-ic{width:40px;height:40px;margin:0}
+#avidra-home .av-ben h3{font-size:16px;margin-bottom:4px}#avidra-home .av-ben p{margin:0;font-size:14.5px;line-height:1.6}
+/* pricing */
+#avidra-home .av-pr{display:grid;gap:24px;align-items:stretch}
+#avidra-home .av-plan{border:1px solid var(--line);border-radius:20px;padding:32px 24px;background:var(--card);display:flex;flex-direction:column;position:relative}
+#avidra-home .av-plan.av-hot{border:2px solid var(--o);background:linear-gradient(180deg,rgba(113,61,255,.22),rgba(113,61,255,.05));box-shadow:0 20px 50px rgba(113,61,255,.25)}
+#avidra-home .av-badge{position:absolute;top:-14px;left:24px;background:var(--o);color:#fff;font:700 11px Sora,sans-serif;letter-spacing:.1em;padding:6px 12px;border-radius:999px}
+#avidra-home .av-plan h3{font-size:20px}#avidra-home .av-price{font:800 36px Sora,sans-serif;color:var(--t);margin:16px 0 8px}#avidra-home .av-price small{font:500 14px Inter;color:var(--p)}
+#avidra-home .av-for{font-size:14px;padding-bottom:16px;border-bottom:1px solid var(--line)}
+#avidra-home .av-plan ul{margin:0 0 24px;flex:1}#avidra-home .av-plan li{display:flex;gap:8px;font-size:14.5px;margin-bottom:8px}
+#avidra-home .av-plan li svg{width:18px;height:18px;color:var(--o);flex:none;margin-top:4px}
+#avidra-home .av-pnote{text-align:center;margin-top:32px;font-size:14px}
+/* gsc */
+#avidra-home .av-car{position:relative;max-width:960px;margin:0 auto}
+#avidra-home .av-trk{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;gap:16px;scrollbar-width:none}
+#avidra-home .av-trk::-webkit-scrollbar{display:none}
+#avidra-home .av-sl{flex:0 0 100%;scroll-snap-align:center;background:#fff;border-radius:var(--r);border:1px solid var(--line);margin:0}
+#avidra-home .av-sl button{display:block;width:100%;padding:8px;background:none;border:0;cursor:zoom-in}
+#avidra-home .av-sl img{display:block;width:100%;height:auto;aspect-ratio:16/10;object-fit:contain}
+#avidra-home .av-ctl{display:flex;justify-content:center;align-items:center;gap:16px;margin-top:24px}
+#avidra-home .av-arr{width:48px;height:48px;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--t);cursor:pointer;display:grid;place-items:center}
+#avidra-home .av-arr:hover{background:var(--v)}#avidra-home .av-arr svg{width:20px;height:20px}
+#avidra-home .av-dots{display:flex;gap:4px}
+#avidra-home .av-dot{width:24px;height:24px;border:0;background:none;cursor:pointer;position:relative}
+#avidra-home .av-dot::after{content:"";position:absolute;inset:8px;border-radius:50%;background:var(--p);opacity:.5}
+#avidra-home .av-dot[aria-current=true]::after{background:var(--o);opacity:1;inset:6px}
+#avidra-home .av-lb{position:fixed;inset:0;z-index:99999;background:rgba(8,5,27,.94);display:none;align-items:center;justify-content:center;padding:24px}
+#avidra-home .av-lb.on{display:flex}#avidra-home .av-lb img{max-width:100%;max-height:88vh;background:#fff;border-radius:8px}
+#avidra-home .av-x{position:absolute;top:16px;right:16px;min-width:48px;min-height:48px;border-radius:50%;border:0;background:var(--o);color:#fff;font-size:24px;cursor:pointer}
+/* faq */
+#avidra-home .av-faq{max-width:820px;margin:0 auto}
+#avidra-home .av-q{border:1px solid var(--line);border-radius:12px;margin-bottom:16px;background:var(--card)}
+#avidra-home .av-q h3{font-size:inherit}
+#avidra-home .av-q button{width:100%;text-align:left;background:none;border:0;color:var(--t);font:600 16px/1.4 Sora,sans-serif;padding:20px 24px;min-height:56px;display:flex;justify-content:space-between;gap:16px;align-items:center;cursor:pointer}
+#avidra-home .av-q button span{font-size:24px;color:var(--o);transition:transform .3s;flex:none}
+#avidra-home .av-q button[aria-expanded=true] span{transform:rotate(45deg)}
+#avidra-home .av-a{display:grid;grid-template-rows:0fr;transition:grid-template-rows .35s}
+#avidra-home .av-a.on{grid-template-rows:1fr}#avidra-home .av-a>div{overflow:hidden}
+#avidra-home .av-a p{padding:0 24px 24px;margin:0;font-size:15px}
+/* final cta */
+#avidra-home .av-fin{text-align:center;background:linear-gradient(135deg,#1c0d4d,var(--bg2) 55%,#2a1160)}
+#avidra-home .av-fin .av-box{max-width:760px;margin:0 auto}
+#avidra-home .av-fin .av-cta{justify-content:center}
+@media(min-width:700px){#avidra-home .av-grid,#avidra-home .av-ben{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:960px){#avidra-home section{padding:96px 0}#avidra-home .av-g2{grid-template-columns:1.05fr .95fr}#avidra-home .av-g2.av-r{grid-template-columns:.95fr 1.05fr}#avidra-home .av-grid{grid-template-columns:repeat(3,1fr)}#avidra-home .av-pr{grid-template-columns:repeat(3,1fr)}#avidra-home .av-hot{transform:translateY(-16px)}}
+@media(max-width:959px){#avidra-home .av-pr{max-width:520px;margin:0 auto}}
+@media(prefers-reduced-motion:reduce){#avidra-home *{transition:none!important;scroll-behavior:auto!important}}
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="av-chk" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></symbol>
+<symbol id="av-onp" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 14l2 2 4-4"/></symbol>
+<symbol id="av-tec" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9 7 7M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1"/></symbol>
+<symbol id="av-loc" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+<symbol id="av-eco" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/><path d="M2 3h3l2.7 12.4a1 1 0 0 0 1 .8h8.6a1 1 0 0 0 1-.8L20 8H6"/></symbol>
+<symbol id="av-lnk" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1"/><path d="M14 11a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"/></symbol>
+<symbol id="av-aud" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></symbol>
+<symbol id="av-kw" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></symbol>
+<symbol id="av-txt" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></symbol>
+<symbol id="av-glo" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20 15 15 0 0 1 0-20"/></symbol>
+<symbol id="av-arrl" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></symbol>
+<symbol id="av-arrr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></symbol>
+</defs></svg>
+
+<!-- 1. HERO -->
+<section class="av-hero" aria-labelledby="av-h1"><div class="av-w av-g2">
+<div data-r="hero">
+<span class="av-eye">SEO &amp; Digital Growth Agency</span>
+<h1 id="av-h1">Grow Your Business with <span class="av-acc">Result-Driven</span> SEO Services in India</h1>
+<p class="av-lead">Avidra Solutions helps businesses improve their online visibility through strategic <strong><a href="https://avidrasolutions.com/seo-services/">SEO Services in India</a></strong>. From <strong>technical optimization</strong> and <strong>keyword research</strong> to <strong>local</strong> and <strong>e-commerce SEO</strong>, we build customized strategies designed to attract relevant <strong>organic traffic</strong> and meaningful business opportunities.</p>
+<div class="av-cta"><a class="av-btn av-b1" href="https://avidrasolutions.com/contact/" data-ev="free_seo_audit_click">Get Free SEO Audit</a><a class="av-btn av-b2" href="#av-services" data-ev="seo_services_click">Explore SEO Services</a></div>
+<ul class="av-trust"><li><svg aria-hidden="true"><use href="#av-chk"/></svg>Data-Driven SEO Strategies</li><li><svg aria-hidden="true"><use href="#av-chk"/></svg>Ethical SEO Practices</li><li><svg aria-hidden="true"><use href="#av-chk"/></svg>Transparent Performance Reporting</li></ul>
+</div>
+<div class="av-frame" data-r="heroimg"><img src="seo company in india.webp" width="900" height="700" alt="Avidra Solutions SEO company in India growth illustration" loading="eager" fetchpriority="high" decoding="async"></div>
+</div></section>
+
+<!-- 2. SERVICES -->
+<section id="av-services" class="av-alt" aria-labelledby="av-h2s"><div class="av-w">
+<div class="av-head" data-r="head"><span class="av-eye">Our Services</span><h2 id="av-h2s">Professional SEO Services Built Around Your Goals</h2>
+<p>As an <strong>SEO company in India</strong>, we combine <strong>Search Engine Optimization Services India</strong> businesses need: from audits and <strong>website optimization</strong> to authority building that supports <strong>Google search visibility</strong> and <strong>organic search growth</strong>.</p></div>
+<div class="av-grid">
+<article class="av-card" data-r="card"><div class="av-ic"><svg aria-hidden="true"><use href="#av-onp"/></svg></div><h3>On-Page SEO</h3><p>Improve website content, page structure, headings, metadata and internal linking to make important pages more search-engine friendly.</p><a class="av-more" href="https://avidrasolutions.com/on-page-seo/" aria-label="Learn more about On-Page SEO">Learn More →</a></article>
+<article class="av-card" data-r="card"><div class="av-ic"><svg aria-hidden="true"><use href="#av-tec"/></svg></div><h3>Technical SEO</h3><p>Improve technical website health through crawlability, indexing, website structure, performance and technical optimization.</p><a class="av-more" href="https://avidrasolutions.com/technical-seo/" aria-label="Learn more about Technical SEO">Learn More →</a></article>
+<article class="av-card" data-r="card"><div class="av-ic"><svg aria-hidden="true"><use href="#av-loc"/></svg></div><h3>Local SEO</h3><p>Strengthen local search visibility and help businesses connect with customers searching for relevant products and services in their area.</p><a class="av-more" href="https://avidrasolutions.com/local-seo/" aria-label="Learn more about Local SEO">Learn More →</a></article>
+<article class="av-card" data-r="card"><div class="av-ic"><svg aria-hidden="true"><use href="#av-eco"/></svg></div><h3>E-commerce SEO</h3><p>Optimize online stores, product pages and category structures to improve organic search visibility for relevant shopping searches.</p><a class="av-more" href="https://avidrasolutions.com/e-commerce-seo/" aria-label="Learn more about E-commerce SEO">Learn More →</a></article>
+<article class="av-card" data-r="card"><div class="av-ic"><svg aria-hidden="true"><use href="#av-lnk"/></svg></div><h3>Link Building</h3><p>Develop relevant authority-building strategies through quality backlinks, outreach and ethical link acquisition.</p><a class="av-more" href="https://avidrasolutions.com/link-building/" aria-label="Learn more about Link Building">Learn More →</a></article>
+<article class="av-card" data-r="card"><div class="av-ic"><svg aria-hidden="true"><use href="#av-aud"/></svg></div><h3>SEO Audit</h3><p>Identify technical, on-page, content and structural SEO opportunities through a detailed website assessment.</p><a class="av-more" href="https://avidrasolutions.com/seo-services/" aria-label="Learn more about SEO Audit">Learn More →</a></article>
+<article class="av-card" data-r="card"><div class="av-ic"><svg aria-hidden="true"><use href="#av-kw"/></svg></div><h3>Keyword Research</h3><p>Discover relevant search terms, understand search intent and identify opportunities that support your business goals.</p><a class="av-more" href="https://avidrasolutions.com/keyword-research-in-seo/" aria-label="Learn more about Keyword Research">Learn More →</a></article>
+<article class="av-card" data-r="card"><div class="av-ic"><svg aria-hidden="true"><use href="#av-txt"/></svg></div><h3>Content SEO</h3><p>Improve content relevance, structure and search intent alignment to create useful content for visitors and search engines.</p><a class="av-more" href="https://avidrasolutions.com/seo-services/" aria-label="Learn more about Content SEO">Learn More →</a></article>
+<article class="av-card" data-r="card"><div class="av-ic"><svg aria-hidden="true"><use href="#av-glo"/></svg></div><h3>International SEO</h3><p>Develop search strategies for businesses targeting customers across multiple countries and international markets.</p><a class="av-more" href="https://avidrasolutions.com/seo-services/" aria-label="Learn more about International SEO">Learn More →</a></article>
+</div>
+<div class="av-note" data-r="head"><p>Preparing for AI-driven search? Explore our <a href="https://avidrasolutions.com/aeo-services/"><strong>Answer Engine Optimization</strong></a> and <a href="https://avidrasolutions.com/geo-services/"><strong>Generative Engine Optimization</strong></a> services, or read <a href="https://avidrasolutions.com/seo-vs-geo/">how SEO differs from GEO</a>. Looking for guest posts? See our <a href="https://avidrasolutions.com/guest-posting/">guest posting service</a>.</p>
+<p><strong>SEO guides:</strong></p>
+<div class="av-guides"><a href="https://avidrasolutions.com/what-is-seo/">What is SEO?</a><a href="https://avidrasolutions.com/how-to-rank-a-website-on-google/">Ranking a website on Google</a><a href="https://avidrasolutions.com/why-is-my-website-not-getting-traffic/">Why traffic stays low</a><a href="https://avidrasolutions.com/seo-checklist-for-small-businesses/">SEO checklist for small businesses</a><a href="https://avidrasolutions.com/seo-vs-paid-ads/">SEO vs paid ads</a><a href="https://avidrasolutions.com/seo-vs-google-ads/">SEO vs Google Ads</a><a href="https://avidrasolutions.com/digital-marketing-roadmap/">Digital marketing roadmap</a><a href="https://avidrasolutions.com/ecommerce-category-page-seo/">Category page SEO</a><a href="https://avidrasolutions.com/blog/">All articles</a></div></div>
+</div></section>
+
+<!-- 3. WHY -->
+<section aria-labelledby="av-h2w"><div class="av-w av-g2 av-r">
+<div data-r="heroimg"><img class="av-img" src="picture-4.jpeg" width="800" height="600" alt="Avidra Solutions SEO growth banner showing organic search growth" loading="lazy" decoding="async"></div>
+<div data-r="hero"><span class="av-eye">Why Avidra</span><h2 id="av-h2w">Why Choose Avidra Solutions for Your SEO Growth?</h2>
+<p>We treat <strong>SEO</strong> as a long-term growth channel, not a one-size-fits-all package. Every campaign is shaped by your industry, audience and goals, with clear communication and honest reporting along the way. Selecting a partner? Read <a href="https://avidrasolutions.com/how-to-choose-seo-agency-india/">how to choose an SEO agency in India</a>.</p>
+<ul class="av-ben">
+<li><span class="av-ic"><svg aria-hidden="true"><use href="#av-aud"/></svg></span><div><h3>Data-Driven SEO Strategies</h3><p>Decisions based on search data and site analysis.</p></div></li>
+<li><span class="av-ic"><svg aria-hidden="true"><use href="#av-tec"/></svg></span><div><h3>Customized SEO Campaigns</h3><p>Plans built around your business, not templates.</p></div></li>
+<li><span class="av-ic"><svg aria-hidden="true"><use href="#av-txt"/></svg></span><div><h3>Transparent Performance Reporting</h3><p>Regular reports that show what was done and why.</p></div></li>
+<li><span class="av-ic"><svg aria-hidden="true"><use href="#av-chk"/></svg></span><div><h3>Ethical SEO Practices</h3><p>Search-engine guideline-friendly methods only.</p></div></li>
+<li><span class="av-ic"><svg aria-hidden="true"><use href="#av-glo"/></svg></span><div><h3>Sustainable Organic Growth</h3><p>Focus on durable visibility, not shortcuts.</p></div></li>
+<li><span class="av-ic"><svg aria-hidden="true"><use href="#av-loc"/></svg></span><div><h3>Clear Client Communication</h3><p>Straightforward updates and easy access to our team.</p></div></li></ul>
+<a class="av-btn av-b2" href="https://avidrasolutions.com/about-us/">Learn About Avidra Solutions</a></div>
+</div></section>
+
+<!-- 4. PRICING -->
+<section class="av-alt" aria-labelledby="av-h2p"><div class="av-w">
+<div class="av-head" data-r="head"><span class="av-eye">Pricing</span><h2 id="av-h2p">SEO Packages Designed for Your Business Growth</h2>
+<p>Explore flexible <strong>SEO Services in India</strong> designed for businesses at different stages of growth. Want a <strong>SEO agency in India</strong> that is <strong>affordable</strong> and transparent? Compare plans below.</p></div>
+<div class="av-pr">
+<article class="av-plan" data-r="card"><h3>Starter SEO</h3><div class="av-price">₹10,000<small>/month</small></div><p class="av-for">Suitable for small businesses and startups.</p>
+<ul><li><svg aria-hidden="true"><use href="#av-chk"/></svg>Initial SEO website assessment</li><li><svg aria-hidden="true"><use href="#av-chk"/></svg>Keyword research</li><li><svg aria-hidden="true"><use href="#av-chk"/></svg>On-page optimization</li><li><svg aria-hidden="true"><use href="#av-chk"/></svg>Basic technical SEO recommendations</li><li><svg aria-hidden="true"><use href="#av-chk"/></svg>Content optimization recommendations</li><li><svg aria-hidden="true"><use href="#av-chk"/></svg>Monthly performance reporting</li></ul>
+<a class="av-btn av-b2" data-ev="pricing_enquiry_click" href="https://wa.me/919306045480?text=Hello%20Avidra%20Solutions%2C%20I%20am%20interested%20in%20your%20Starter%20SEO%20plan.%20Please%20share%20more%20details.">Enquire on WhatsApp</a></article>
+<article class="av-plan av-hot" data-r="card"><span class="av-badge">RECOMMENDED PLAN</span><h3>Growth SEO</h3><div class="av-price">₹20,000<small>/month</small></div><p class="av-for">Suitable for growing businesses looking to improve organic visibility and expand their search presence.</p>
+<ul><li><svg aria-hidden="true"><use href="#av-chk"/></svg>Detailed SEO audit</li><li><svg aria-hidden="true"><use href="#av-chk"/></svg>Expanded keyword research</li><li><svg aria-hidden="true"><use href="#av-chk"/></svg>On-page SEO improvements</li><li><svg aria-hidden="true"><use href="#av-chk"/></svg>Technical SEO monitoring</li><li><svg aria-hidden="true"><use href="#av-chk"/></svg>Content optimization</li><li><svg aria-hidden="true"><use href="#av-chk"/></svg>Link-building strategy</li><li><svg aria-hidden="true"><use href="#av-chk"/></svg>Local SEO recommendations where relevant</li><li><svg aria-hidden="true"><use href="#av-chk"/></svg>Monthly performance reporting</li></ul>
+<a class="av-btn av-b1" data-ev="pricing_enquiry_click" href="https://wa.me/919306045480?text=Hello%20Avidra%20Solutions%2C%20I%20am%20interested%20in%20your%20Growth%20SEO%20plan.%20Please%20share%20more%20details.">Enquire on WhatsApp</a></article>
+<article class="av-plan" data-r="card"><h3>Advanced SEO</h3><div class="av-price">₹40,000<small>/month</small></div><p class="av-for">Suitable for established businesses and competitive industries.</p>
+<ul><li><svg aria-hidden="true"><use href="#av-chk"/></svg>Comprehensive SEO audit</li><li><svg aria-hidden="true"><use href="#av-chk"/></svg>Advanced keyword strategy</li><li><svg aria-hidden="true"><use href="#av-chk"/></svg>Technical SEO optimization</li><li><svg aria-hidden="true"><use href="#av-chk"/></svg>Content and website structure strategy</li><li><svg aria-hidden="true"><use href="#av-chk"/></svg>Advanced link-building strategy</li><li><svg aria-hidden="true"><use href="#av-chk"/></svg>Competitor analysis</li><li><svg aria-hidden="true"><use href="#av-chk"/></svg>International or multi-location SEO recommendations where relevant</li><li><svg aria-hidden="true"><use href="#av-chk"/></svg>Detailed monthly reporting</li></ul>
+<a class="av-btn av-b2" data-ev="pricing_enquiry_click" href="https://wa.me/919306045480?text=Hello%20Avidra%20Solutions%2C%20I%20am%20interested%20in%20your%20Advanced%20SEO%20plan.%20Please%20share%20more%20details.">Enquire on WhatsApp</a></article>
+</div>
+<p class="av-pnote">Deliverables are illustrative and tailored per project; no rankings or traffic are guaranteed. See <a href="https://avidrasolutions.com/seo-pricing-packages/">full SEO pricing packages</a>, or read about <a href="https://avidrasolutions.com/seo-cost-in-india/">SEO cost in India</a> and <a href="https://avidrasolutions.com/seo-cost-in-ambala/">SEO cost in Ambala</a>.</p>
+</div></section>
+
+<!-- 5. GSC -->
+<section aria-labelledby="av-h2g"><div class="av-w">
+<div class="av-head" data-r="head"><span class="av-eye">Proof</span><h2 id="av-h2g">Real SEO Performance. Real Search Console Data.</h2>
+<p>Explore original Google Search Console performance reports to understand the type of organic search insights used to monitor website visibility and SEO progress.</p></div>
+<div class="av-car" role="region" aria-roledescription="carousel" aria-label="Google Search Console screenshots">
+<div class="av-trk" tabindex="0" aria-live="polite">
+<figure class="av-sl"><button type="button" aria-label="View Google Search Console report 1 full size"><img src="gsc-1.webp" width="1600" height="1000" alt="Google Search Console performance report 1 for avidrasolutions.com" loading="lazy" decoding="async"></button></figure>
+<figure class="av-sl"><button type="button" aria-label="View Google Search Console report 2 full size"><img src="gsc-2.webp" width="1600" height="1000" alt="Google Search Console performance report 2 for avidrasolutions.com" loading="lazy" decoding="async"></button></figure>
+<figure class="av-sl"><button type="button" aria-label="View Google Search Console report 3 full size"><img src="gsc-3.webp" width="1600" height="1000" alt="Google Search Console performance report 3 for avidrasolutions.com" loading="lazy" decoding="async"></button></figure>
+<figure class="av-sl"><button type="button" aria-label="View Google Search Console report 4 full size"><img src="gsc-4.webp" width="1600" height="1000" alt="Google Search Console performance report 4 for avidrasolutions.com" loading="lazy" decoding="async"></button></figure>
+</div>
+<div class="av-ctl"><button class="av-arr" type="button" data-d="-1" aria-label="Previous screenshot"><svg aria-hidden="true"><use href="#av-arrl"/></svg></button><div class="av-dots"></div><button class="av-arr" type="button" data-d="1" aria-label="Next screenshot"><svg aria-hidden="true"><use href="#av-arrr"/></svg></button></div>
+</div></div>
+<div class="av-lb" role="dialog" aria-modal="true" aria-label="Enlarged Search Console screenshot"><button class="av-x" type="button" aria-label="Close enlarged image">×</button><img alt="" src=""></div>
+</section>
+
+<!-- 6. FAQ -->
+<section class="av-alt" aria-labelledby="av-h2f"><div class="av-w">
+<div class="av-head" data-r="head"><h2 id="av-h2f">Frequently Asked Questions About SEO Services</h2></div>
+<div class="av-faq">
+<div class="av-q"><h3><button type="button" aria-expanded="true" aria-controls="av-a1" id="av-b1">What are SEO services?<span aria-hidden="true">+</span></button></h3><div class="av-a on" id="av-a1" role="region" aria-labelledby="av-b1"><div><p>SEO services involve improving a website's visibility in organic search results through technical optimization, keyword research, content improvements, website structure and other search optimization activities.</p></div></div></div>
+<div class="av-q"><h3><button type="button" aria-expanded="false" aria-controls="av-a2" id="av-b2">How long does SEO take to show results?<span aria-hidden="true">+</span></button></h3><div class="av-a" id="av-a2" role="region" aria-labelledby="av-b2"><div><p><a href="https://avidrasolutions.com/how-long-does-seo-take/">SEO timelines vary</a> depending on competition, website condition, industry and strategy. Some improvements may become visible earlier, while meaningful organic growth generally requires consistent work over several months. SEO does not guarantee a fixed ranking timeline.</p></div></div></div>
+<div class="av-q"><h3><button type="button" aria-expanded="false" aria-controls="av-a3" id="av-b3">How much do SEO services cost?<span aria-hidden="true">+</span></button></h3><div class="av-a" id="av-a3" role="region" aria-labelledby="av-b3"><div><p>SEO pricing depends on the website, competition, required work and business goals. Avidra Solutions offers <a href="https://avidrasolutions.com/seo-pricing-packages/">packages starting at ₹10,000 per month</a>, with Growth and Advanced options also available. Read our <a href="https://avidrasolutions.com/seo-cost-in-india/">SEO cost guide</a> for more.</p></div></div></div>
+<div class="av-q"><h3><button type="button" aria-expanded="false" aria-controls="av-a4" id="av-b4">What is included in monthly SEO services?<span aria-hidden="true">+</span></button></h3><div class="av-a" id="av-a4" role="region" aria-labelledby="av-b4"><div><p>Monthly SEO services may include keyword research, on-page optimization, technical SEO improvements, content recommendations, link-building activities and performance reporting depending on the selected package.</p></div></div></div>
+<div class="av-q"><h3><button type="button" aria-expanded="false" aria-controls="av-a5" id="av-b5">What is Local SEO?<span aria-hidden="true">+</span></button></h3><div class="av-a" id="av-a5" role="region" aria-labelledby="av-b5"><div><p><a href="https://avidrasolutions.com/local-seo/">Local SEO</a> improves visibility in location-based searches and helps businesses connect with nearby customers. It can include Google Business Profile optimization, local keyword targeting, location pages and local authority development.</p></div></div></div>
+<div class="av-q"><h3><button type="button" aria-expanded="false" aria-controls="av-a6" id="av-b6">Can SEO increase organic website traffic?<span aria-hidden="true">+</span></button></h3><div class="av-a" id="av-a6" role="region" aria-labelledby="av-b6"><div><p>SEO can help improve relevant organic visibility and attract potential visitors by aligning website content, technical performance and search intent with what people are searching for. Results depend on competition, website quality and implementation.</p></div></div></div>
+<div class="av-q"><h3><button type="button" aria-expanded="false" aria-controls="av-a7" id="av-b7">Does Avidra provide SEO services across India?<span aria-hidden="true">+</span></button></h3><div class="av-a" id="av-a7" role="region" aria-labelledby="av-b7"><div><p>Avidra Solutions offers SEO strategies for businesses targeting customers across India. Its services can be tailored to different industries, locations and business objectives. Local businesses can also explore our <a href="https://avidrasolutions.com/seo-company-in-ambala/">SEO company in Ambala</a> and <a href="https://avidrasolutions.com/seo-company-in-rajpura/">SEO company in Rajpura</a> pages.</p></div></div></div>
+<div class="av-q"><h3><button type="button" aria-expanded="false" aria-controls="av-a8" id="av-b8">Why should businesses invest in SEO?<span aria-hidden="true">+</span></button></h3><div class="av-a" id="av-a8" role="region" aria-labelledby="av-b8"><div><p>SEO helps businesses build organic search visibility, improve their website's discoverability and attract relevant visitors. It can support long-term digital growth when combined with a consistent and ethical strategy.</p></div></div></div>
+</div></div>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"What are SEO services?","acceptedAnswer":{"@type":"Answer","text":"SEO services involve improving a website's visibility in organic search results through technical optimization, keyword research, content improvements, website structure and other search optimization activities."}},
+{"@type":"Question","name":"How long does SEO take to show results?","acceptedAnswer":{"@type":"Answer","text":"SEO timelines vary depending on competition, website condition, industry and strategy. Some improvements may become visible earlier, while meaningful organic growth generally requires consistent work over several months. SEO does not guarantee a fixed ranking timeline."}},
+{"@type":"Question","name":"How much do SEO services cost?","acceptedAnswer":{"@type":"Answer","text":"SEO pricing depends on the website, competition, required work and business goals. Avidra Solutions offers packages starting at ₹10,000 per month, with Growth and Advanced options also available. Read our SEO cost guide for more."}},
+{"@type":"Question","name":"What is included in monthly SEO services?","acceptedAnswer":{"@type":"Answer","text":"Monthly SEO services may include keyword research, on-page optimization, technical SEO improvements, content recommendations, link-building activities and performance reporting depending on the selected package."}},
+{"@type":"Question","name":"What is Local SEO?","acceptedAnswer":{"@type":"Answer","text":"Local SEO improves visibility in location-based searches and helps businesses connect with nearby customers. It can include Google Business Profile optimization, local keyword targeting, location pages and local authority development."}},
+{"@type":"Question","name":"Can SEO increase organic website traffic?","acceptedAnswer":{"@type":"Answer","text":"SEO can help improve relevant organic visibility and attract potential visitors by aligning website content, technical performance and search intent with what people are searching for. Results depend on competition, website quality and implementation."}},
+{"@type":"Question","name":"Does Avidra provide SEO services across India?","acceptedAnswer":{"@type":"Answer","text":"Avidra Solutions offers SEO strategies for businesses targeting customers across India. Its services can be tailored to different industries, locations and business objectives. Local businesses can also explore our SEO company in Ambala and SEO company in Rajpura pages."}},
+{"@type":"Question","name":"Why should businesses invest in SEO?","acceptedAnswer":{"@type":"Answer","text":"SEO helps businesses build organic search visibility, improve their website's discoverability and attract relevant visitors. It can support long-term digital growth when combined with a consistent and ethical strategy."}}]}</script>
+</section>
+
+<!-- 7. FINAL CTA -->
+<section class="av-fin" aria-labelledby="av-h2c"><div class="av-w"><div class="av-box" data-r="head">
+<h2 id="av-h2c">Ready to Grow Your Business with SEO?</h2>
+<p>Let's build a strategic SEO campaign that helps your business improve search visibility, attract relevant visitors and generate meaningful opportunities. Based in Punjab or Haryana? See our <a href="https://avidrasolutions.com/seo-company-in-ambala/"><strong>SEO Agency in Ambala</strong></a> page.</p>
+<div class="av-cta"><a class="av-btn av-b1" href="https://avidrasolutions.com/contact/" data-ev="contact_form_click">Get Free SEO Consultation</a><a class="av-btn av-b2" href="https://wa.me/919306045480" data-ev="whatsapp_click">Contact on WhatsApp</a></div>
+</div></div></section>
+
+<script>
+(function(){
+var root=document.getElementById('avidra-home');if(!root||root.dataset.init)return;root.dataset.init='1';
+var $=function(s,c){return(c||root).querySelector(s)},$$=function(s,c){return Array.prototype.slice.call((c||root).querySelectorAll(s))};
+var reduce=window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+/* tracking hooks (only if GA4/GTM already present) */
+root.addEventListener('click',function(e){var a=e.target.closest('[data-ev]');if(!a)return;var n=a.getAttribute('data-ev');
+if(a.href&&a.href.indexOf('wa.me')>-1&&n!=='pricing_enquiry_click')n='whatsapp_click';
+try{if(window.gtag)window.gtag('event',n,{link_url:a.href});else if(window.dataLayer)window.dataLayer.push({event:n,link_url:a.href})}catch(x){}});
+root.addEventListener('click',function(e){var a=e.target.closest('a[href^="#av-"]');if(!a)return;var t=document.getElementById(a.getAttribute('href').slice(1));if(t){e.preventDefault();t.scrollIntoView({behavior:reduce?'auto':'smooth'})}});
+/* FAQ */
+var qs=$$('.av-q button');
+qs.forEach(function(b){b.addEventListener('click',function(){var open=b.getAttribute('aria-expanded')==='true';
+qs.forEach(function(o){o.setAttribute('aria-expanded','false');document.getElementById(o.getAttribute('aria-controls')).classList.remove('on')});
+if(!open){b.setAttribute('aria-expanded','true');document.getElementById(b.getAttribute('aria-controls')).classList.add('on')}})});
+/* Carousel */
+var trk=$('.av-trk'),sl=$$('.av-sl'),dots=$('.av-dots'),cur=0;
+sl.forEach(function(_,i){var d=document.createElement('button');d.type='button';d.className='av-dot';d.setAttribute('aria-label','Go to screenshot '+(i+1));d.onclick=function(){go(i)};dots.appendChild(d)});
+function go(i){cur=Math.max(0,Math.min(sl.length-1,i));trk.scrollTo({left:sl[cur].offsetLeft-trk.offsetLeft,behavior:reduce?'auto':'smooth'})}
+function mark(){var i=Math.round(trk.scrollLeft/(sl[0].offsetWidth+16));cur=i;$$('.av-dot').forEach(function(d,k){k===i?d.setAttribute('aria-current','true'):d.removeAttribute('aria-current')})}
+trk.addEventListener('scroll',function(){clearTimeout(trk._t);trk._t=setTimeout(mark,60)},{passive:true});mark();
+$$('.av-arr').forEach(function(b){b.onclick=function(){go(cur+ +b.dataset.d)}});
+trk.addEventListener('keydown',function(e){if(e.key==='ArrowRight'){e.preventDefault();go(cur+1)}if(e.key==='ArrowLeft'){e.preventDefault();go(cur-1)}});
+/* Lightbox */
+var lb=$('.av-lb'),lbi=$('img',lb),last;
+function close(){lb.classList.remove('on');if(last)last.focus()}
+$$('.av-sl button').forEach(function(b){b.onclick=function(){var im=$('img',b);lbi.src=im.currentSrc||im.src;lbi.alt=im.alt;last=b;lb.classList.add('on');$('.av-x',lb).focus()}});
+lb.addEventListener('click',function(e){if(e.target!==lbi)close()});
+document.addEventListener('keydown',function(e){if(e.key==='Escape'&&lb.classList.contains('on'))close()});
+/* GSAP (optional, content stays visible if it fails) */
+function load(src,cb){var s=document.createElement('script');s.src=src;s.async=true;s.onload=cb;document.head.appendChild(s)}
+function anim(){var g=window.gsap;if(!g||reduce)return;
+if(window.ScrollTrigger)g.registerPlugin(window.ScrollTrigger);else return;
+g.from($$('[data-r=hero]'),{y:28,opacity:0,duration:.8,ease:'power2.out',clearProps:'all'});
+g.from($$('[data-r=heroimg]')[0],{x:32,opacity:0,duration:.9,delay:.15,ease:'power2.out',clearProps:'all'});
+$$('[data-r=head]').forEach(function(el){g.from(el,{y:24,opacity:0,duration:.7,ease:'power2.out',clearProps:'all',scrollTrigger:{trigger:el,start:'top 88%',once:true}})});
+$$('.av-grid,.av-pr').forEach(function(w){g.from($$('[data-r=card]',w),{y:32,opacity:0,duration:.6,stagger:.08,ease:'power2.out',clearProps:'all',scrollTrigger:{trigger:w,start:'top 85%',once:true}})});
+$$('.av-g2.av-r > div').forEach(function(el){g.from(el,{y:28,opacity:0,duration:.8,ease:'power2.out',clearProps:'all',scrollTrigger:{trigger:el,start:'top 85%',once:true}})});
+}
+try{
+if(!reduce){
+if(window.gsap&&window.ScrollTrigger)anim();
+else if(window.gsap)load('https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js',anim);
+else load('https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js',function(){window.ScrollTrigger?anim():load('https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js',anim)});
+}}catch(e){}
+})();
+</script>
+</div>
+</body>
+</html>
